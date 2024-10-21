@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6005167439249992810
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16111781506317483, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170490453222260664, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_Name
+      value: BarronIndigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263961595330089768, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263961595330089768, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263961595330089768, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263961595330089768, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263961595330089768, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263961595330089768, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357971177755787980, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
+    - target: {fileID: 6200698748916913700, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: 7cc1f2c7bdcd0f048b80a09ed1c27b23, type: 3}
+    - target: {fileID: 6200698748916913700, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: title
+      value: Barron Indigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6200698748916913700, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: Color.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 6200698748916913700, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: Color.g
+      value: 0.23529413
+      objectReference: {fileID: 0}
+    - target: {fileID: 6200698748916913700, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: Color.r
+      value: 0.19607845
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654896951813328840, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654896951813328840, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654896951813328840, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654896951813328840, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654896951813328840, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654896951813328840, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0392fbe2b49e6a94b8911fdec5a2ce51, type: 3}
