@@ -73,36 +73,36 @@ namespace LobbyRelaySample.ngo
             }
         }
 
-        async Task SetRelayHostData()
-        {
-            UnityTransport transport = NetworkManager.Singleton.GetComponentInChildren<UnityTransport>();
-
-            var allocation = await Relay.Instance.CreateAllocationAsync(m_lobby.MaxPlayerCount.Value);
-            var joincode = await Relay.Instance.GetJoinCodeAsync(allocation.AllocationId);
-            GameManager.Instance.HostSetRelayCode(joincode);
-
-            bool isSecure = false;
-            var endpoint = GetEndpointForAllocation(allocation.ServerEndpoints,
-                allocation.RelayServer.IpV4, allocation.RelayServer.Port, out isSecure);
-
-            transport.SetHostRelayData(AddressFromEndpoint(endpoint), endpoint.Port,
-                allocation.AllocationIdBytes, allocation.Key, allocation.ConnectionData, isSecure);
-        }
+        // async Task SetRelayHostData()
+        // {
+        //     UnityTransport transport = NetworkManager.Singleton.GetComponentInChildren<UnityTransport>();
+        //
+        //     var allocation = await Relay.Instance.CreateAllocationAsync(m_lobby.MaxPlayerCount.Value);
+        //     var joincode = await Relay.Instance.GetJoinCodeAsync(allocation.AllocationId);
+        //     GameManager.Instance.HostSetRelayCode(joincode);
+        //
+        //     bool isSecure = false;
+        //     var endpoint = GetEndpointForAllocation(allocation.ServerEndpoints,
+        //         allocation.RelayServer.IpV4, allocation.RelayServer.Port, out isSecure);
+        //
+        //     transport.SetHostRelayData(AddressFromEndpoint(endpoint), endpoint.Port,
+        //         allocation.AllocationIdBytes, allocation.Key, allocation.ConnectionData, isSecure);
+        // }
         
 
-        async Task SetRelayClientData()
-        {
-            UnityTransport transport = NetworkManager.Singleton.GetComponentInChildren<UnityTransport>();
-
-            var joinAllocation = await Relay.Instance.JoinAllocationAsync(m_lobby.RelayCode.Value);
-            bool isSecure = false;
-            var endpoint = GetEndpointForAllocation(joinAllocation.ServerEndpoints,
-                joinAllocation.RelayServer.IpV4, joinAllocation.RelayServer.Port, out isSecure);
-
-            transport.SetClientRelayData(AddressFromEndpoint(endpoint), endpoint.Port,
-                joinAllocation.AllocationIdBytes, joinAllocation.Key,
-                joinAllocation.ConnectionData, joinAllocation.HostConnectionData, isSecure);
-        }
+        // async Task SetRelayClientData()
+        // {
+        //     UnityTransport transport = NetworkManager.Singleton.GetComponentInChildren<UnityTransport>();
+        //
+        //     var joinAllocation = await Relay.Instance.JoinAllocationAsync(m_lobby.RelayCode.Value);
+        //     bool isSecure = false;
+        //     var endpoint = GetEndpointForAllocation(joinAllocation.ServerEndpoints,
+        //         joinAllocation.RelayServer.IpV4, joinAllocation.RelayServer.Port, out isSecure);
+        //
+        //     transport.SetClientRelayData(AddressFromEndpoint(endpoint), endpoint.Port,
+        //         joinAllocation.AllocationIdBytes, joinAllocation.Key,
+        //         joinAllocation.ConnectionData, joinAllocation.HostConnectionData, isSecure);
+        // }
         
         
 
