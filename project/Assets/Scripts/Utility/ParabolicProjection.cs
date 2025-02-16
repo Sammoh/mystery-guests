@@ -31,7 +31,7 @@ public class ParabolicProjection : MonoBehaviour
         Rigidbody projectile = Instantiate(currentProjectilePrefab);
         projectilePrefab.transform.position = transform.position;
         projectile.transform.rotation = transform.rotation;
-        projectile.velocity = transform.forward * force;
+        projectile.linearVelocity = transform.forward * force;
     }
  
     private void Awake()
@@ -43,7 +43,7 @@ public class ParabolicProjection : MonoBehaviour
  
     private void Update()
     {
-        SimulatePath(transform.gameObject, transform.forward * force, currentProjectilePrefab.drag);
+        SimulatePath(transform.gameObject, transform.forward * force, currentProjectilePrefab.linearDamping);
  
         if (Input.GetKeyDown(KeyCode.Space) && enableTestShoot)
         {
